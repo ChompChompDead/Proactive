@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "proactive",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Proactive",
+  "description": "1.16.5 kotlin client",
   "authors": [
-    "Me!"
+    "ChompChompDead"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "com.chompchompdead.proactive.Proactive"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "proactive.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
